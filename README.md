@@ -16,4 +16,4 @@ Place run_analysis.R in the working folder and set this folder as your working d
 Source the run_analysis.R code in R program.  
 Then type runanalysis() in R, which will generate a new file tiny_data.txt in your working directory.  
 
-Note : You can verify the output using read.table function.
+**Note** : You can verify the output using read.table function.
