@@ -14,6 +14,6 @@ For the project create an R script called run_analysis.R that does the following
 First download the data source (read Codebook.md in this repo), unzip it and place into your local folder.  
 Place run_analysis.R in the same local folder and set this folder as your working directory using setwd().  
 Source the run_analysis.R code in R program.  
-Then type runanalysis() in R, which will generate a new file tiny_data.txt in your working directory.  
+Then type 'runanalysis()' in R, which will generate a new file tiny_data.txt in your working directory.  
 
 **Note** : You can verify the output using read.table function.
