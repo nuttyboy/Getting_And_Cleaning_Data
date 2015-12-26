@@ -45,6 +45,7 @@ As per assignment requirement:
  - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### Steps used to produce the final output
+Note : For this code to run, install packages - plyr and dplyr  
 Once we upload all the data into R, we substitute the column names to each X file of test and train data set.  
 Then we combine them with the labels and subject info(y file and subject file).  
 The 2 files of test and train data are combined as a master data set.  

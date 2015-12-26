@@ -14,7 +14,7 @@ runanalysis <- function()
     ##START##
     
 # Libraries defined before the code(Assuming the user has 
-# installed the necessary pacakages).
+# installed the necessary packages).
     library(plyr)
     library(dplyr)
 # Read all tables from the current working directory, after unziping
