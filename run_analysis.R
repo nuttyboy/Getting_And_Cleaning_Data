@@ -88,6 +88,7 @@ names(mastername) <- tempname
     mastername <- select(mastername,-labels)
     mastergrp <- group_by(mastername,activities,subject)
     finalout <- summarise_each(mastergrp,funs(mean))
+# output contains average of all variables calssified by activity and subject
     write.table(finalout, file = "./tidy_data.txt",row.name = FALSE)
     
     ##END##

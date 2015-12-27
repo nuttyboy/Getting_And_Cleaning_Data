@@ -47,7 +47,7 @@ As per assignment requirement:
 ### Steps used to produce the final output
 **Note** : For this code to run, install packages - plyr and dplyr  
 Once we upload all the data into R, we substitute the column names to each X file of test and train data set.  
-Then we combine them with the labels and subject info(y file and subject file).  
+Then we combine them with the labels and subject info (y file and subject file).  
 The 2 files of test and train data are combined as a master data set.  
 We select only those columns from master data which contain the characters - "mean()" or "std()".  
 Activity labels are substituted for the label values.  
@@ -57,4 +57,32 @@ Final output is written to the working folder as "tidy_data.txt".
 
 ## Final Output
 The final output of the code - 'run_analysis.R' is the 'tidy_data.txt' file which contains the transformed data.  
-The final output is an aggregate of the variables selected for the assignment purpose with classifications by activity and subject.
+The final output is an aggregate of the variables selected for the assignment purpose with classifications by activity and subject.  
+
+## Data units
+
+| Name                  | Class         | Value                  |
+| ----------------------|:-------------:| :----------------------|
+| activities            | Factor        | Levels                 |
+|                       |               |   1 LAYING             |
+|                       |               |   2 SITTING            |
+|                       |               |   3 STANDING           |    
+|                       |               |   4 WALKING            |
+|                       |               |   5 WALKING_UPSTAIRS   |
+|                       |               |   6 WALKING_DOWNSTAIRS |
+| subject               | Integer       |   [1:30]               |
+| rest of the variables | Numeric       |   [-1:1]               |
+
+### Abbreviations
+  1.TIME - time domain signals  
+  2.FREQ - frequency domain signals  
+  3.Body - body  
+  4.Gravity - gravity  
+  5.Acc - accelerometer  
+  6.Gyro - gyroscope  
+  7.Jerk - jerk  
+  8.Mag - magnitude  
+  9.Mean - Mean value  
+  10.StanDev - Standard Deviation  
+  11.X/Y/Z - 3-axial signals  
+
