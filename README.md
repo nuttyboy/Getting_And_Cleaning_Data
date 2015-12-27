@@ -16,7 +16,8 @@ Place run_analysis.R in the same local folder and set this folder as your workin
 Source the run_analysis.R code in R program.  
 Then type 'runanalysis()' in R, which will generate a new file tiny_data.txt in your working directory.  
 
-**Note** : You can verify the output using read.table function.
+**Note** : You can verify the output using the following function:  
+            data <- read.table("tidy_data.txt", header = TRUE)
 
 ### What the function does:
 The run_analysis function executes the process of reading information from all files related to the Samsung data and tidies up the data as per the assignment instructions. The final output is the average of the variables selected, cut by 'activity' and 'subject' variables. 
